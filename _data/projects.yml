@@ -3,14 +3,14 @@
 
 # jazznotes.io
 - project: Lv.3 Advanced Driver Assistance System
-  role: Developed Drivable Surface Detection & Curb Detection Algorithm
+  role: Drivable Surface & Curb Detection Algorithm
   duration: 2022 &mdash; Present
   # url: "#"
   description: Our Research aims to <b>overcome the challenges</b> in images, especially <b>Distance Estimation Problem</b> in single Camera. By using <b>Camera Geometry</b>, we were able to make a robust output of Drivable Surface Map.
   
 # Springfield Community Outreach Group
-- project: Springfield Community Outreach Group
-  role: Co-Founder & Organizer
-  duration: 2007 &mdash; Present
-  # url: "#"
-  description: SCOG is a local monthly meetup in Springfield where we share opportunities to volunteer in the community and organize support for families and neighborhoods in need of assistance that the community can provide.
+- project: Lv.4 Autonomous Driving Pilot Service
+  role: Front and FrontSide Segmentation based Detection
+  duration: 2021 &mdash; Present
+  url: "https://www.youtube.com/watch?v=0W69PArCRMU"
+  description: My Research aims to <b>Understanding the Mechanisms</b> of Semantic Segmentation Neural Network in order to <b>overcome Class Imbalance Problem</b> such as Tubular Marker Dataset.
