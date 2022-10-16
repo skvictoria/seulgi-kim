@@ -6,8 +6,7 @@
   role: Developed Drivable Surface Detection & Curb Detection Algorithm
   duration: 2022 &mdash; Present
   # url: "#"
-  description: Our Research aims to <b>overcome the challenges</b> in images, especially <b>Distance Estimation Problem</b> in single Camera.
-  By using <b>Camera Geometry</b>, we were able to make a robust output of Drivable Surface Map.
+  description: Our Research aims to <b>overcome the challenges</b> in images, especially <b>Distance Estimation Problem</b> in single Camera. By using <b>Camera Geometry</b>, we were able to make a robust output of Drivable Surface Map.
   
 # Springfield Community Outreach Group
 - project: Springfield Community Outreach Group
