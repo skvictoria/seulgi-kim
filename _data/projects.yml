@@ -12,7 +12,12 @@
 - project: Lv.4 Autonomous Driving Pilot Service
   role: Front and FrontSide Segmentation based Detection
   duration: 2021 &mdash; Present
-  url: "https://www.youtube.com/watch?v=0W69PArCRMU"
+  url1: "https://www.youtube.com/watch?v=0W69PArCRMU"
+  url2: "https://www.youtube.com/watch?v=SSW3_k7qv0A"
+  url3: "https://www.youtube.com/shorts/zMVJkkizVnc"
+  award1: RoboTruck Service
+  award2: RoboShuttle Service
+  award3: RoboRide Service
   description: My Research aims to <b>Understanding the Mechanisms</b> of Semantic Segmentation Neural Network in order to <b>overcome Class Imbalance Problem</b> such as Tubular Marker Dataset. <ul class="resume-item-list"><li>RoboTruck</li><li>RoboShuttle</li><li>RoboRide</li></ul>
 
 - project: Cloud Learning for Real-time Network Performance Improvement
