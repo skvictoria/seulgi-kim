@@ -2,12 +2,13 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- project: jazznotes.io
-  role: Founder & Primary Developer
-  duration: 2012 &mdash; Present
+- project: Lv.3 Advanced Driver Assistance System
+  role: Developed Drivable Surface Detection & Curb Detection Algorithm
+  duration: 2022 &mdash; Present
   # url: "#"
-  description: Jazz Notes is an open source node/ember app that helps you keep track of your music compositions and new ideas.
-
+  description: Our Research aims to <b>overcome the challenges</b> in images, especially <b>Distance Estimation Problem</b> in single Camera.
+  By using <b>Camera Geometry</b>, we were able to make a robust output of Drivable Surface Map.
+  
 # Springfield Community Outreach Group
 - project: Springfield Community Outreach Group
   role: Co-Founder & Organizer
