@@ -23,10 +23,10 @@ resume_contact_address:         "742 Evergreen Terrace, Springfield"
 resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
 display_header_contact_info:    "false"
 
-resume_header_intro: "<p><b>Research Engineer</b> at Hyundai Motor Company
-<br>Computer Vision, 3D Geometry, Object Tracking, Deep Learning
-<br>I am a Research Engineer with the ADAS Development Team 1 of Automotive Research and Development Division, <b>Hyundai Motor Company</b>, Korea.</p>"
-# <br>I am interested in <b>Addressing Challenges in Perception</b> using Computer Vision and Camera Geometry, Object Tracking, and Deep Learning.<br>My research goal is to develop <b>Camera-based Full Self-Driving</b>.</p>"
+resume_header_intro: "<p>
+<br>I am a <b>Research Engineer</b> with the ADAS Development Team 1 of Automotive Research and Development Division, <b>Hyundai Motor Company</b>, Korea."
+<br>I am interested in <b>Addressing Challenges in Perception</b> using Computer Vision and Camera Geometry, Object Tracking, and Deep Learning.
+<br>My research goal is to develop <b>Camera-based Full Self-Driving</b>.</p>"
 
 
 # use "yes" to display the email contact button,
@@ -65,76 +65,3 @@ resume_theme:                   default
 # Note: when editing locally, remember to restart
 # your Jekyll server when you edit this file. Changes
 # to _config.yml are only recognized when the server starts
-
-
-
-
-# # Site settings
-# title: "Jekyll Resume Template"
-# description: "A resume template for Jekyll and GitHub Pages sites."
-
-# # Build settings
-# markdown: kramdown
-# sass:
-#   sass_dir: _sass
-#   style: compressed
-
-# # Resume settings
-# resume_avatar:                  "true"
-# resume_name:                    "Seulgi Kim"
-# resume_title:                   "Software Research Engineer"
-
-# # used for the contact button in _layouts/resume.html
-# resume_contact_email:           "mydream17@snu.ac.kr"
-
-
-# # the next two items are used for schema itemprops in _layouts/resume.html
-# resume_contact_telephone:       "555-7334"
-# resume_contact_address:         "742 Evergreen Terrace, Springfield"
-
-# resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334 • lisasimpson@youremailaddress.com"
-# display_header_contact_info:    "false"
-
-# resume_header_intro: "<p>
-# <br><b>Research Engineer</b> at Hyundai Motor Company
-# <br>Computer Vision, 3D Geometry, Object Tracking, Deep Learning
-# <br>I am a Research Engineer with the ADAS Development Team 1 of Automotive Research and Development Division, <a href="https://www.hyundaimotorgroup.com/main/mainRecommend"><b>Hyundai Motor Company</b></a>, Korea.
-# <br>I am interested in <b>Addressing Challenges in Perception</b> using Computer Vision and Camera Geometry, Object Tracking, and Deep Learning.<br>My research goal is to develop <b>Camera-based Full Self-Driving</b>.</p>"
-
-# # use "yes" to display the email contact button,
-# # "no" to display an "I'm not looking for work" message,
-# # or remove the resume_looking_for_work option entirely
-# # to leave blank
-# resume_looking_for_work:        "yes"
-
-# # Decide which sections to use
-# # comment out to hide
-# resume_section_education:       true
-# resume_section_experience:      true
-# resume_section_projects:        true
-# resume_section_skills:          true
-# resume_section_recognition:     true
-# resume_section_links:           true
-# resume_section_associations:    true
-# # resume_section_interests:       true
-
-# # Resume social links
-# # uncomment the options you wish to display, and add your own URL
-# resume_social_links:
-#   resume_website_url:           "https://seulgi-kim.tistory.com/"
-#   resume_github_url:            "https://github.com/skvictoria"
-#   #resume_twitter_url:           "http://twitter.com/jglovier"
-#   #resume_dribbble_url:          "https://dribbble.com/jag"
-#   resume_facebook_url:          "https://www.facebook.com/profile.php?id=100014309041267"
-#   #resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
-#   resume_instagram_url:         "https://www.instagram.com/seulgi_k.611/"
-#   #resume_medium_url:            "https://medium.com/@jglovier"
-# resume_print_social_links:      true
-
-
-# # Design settings
-# resume_theme:                   default
-
-# # Note: when editing locally, remember to restart
-# # your Jekyll server when you edit this file. Changes
-# # to _config.yml are only recognized when the server starts
