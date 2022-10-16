@@ -13,4 +13,10 @@
   role: Front and FrontSide Segmentation based Detection
   duration: 2021 &mdash; Present
   url: "https://www.youtube.com/watch?v=0W69PArCRMU"
-  description: My Research aims to <b>Understanding the Mechanisms</b> of Semantic Segmentation Neural Network in order to <b>overcome Class Imbalance Problem</b> such as Tubular Marker Dataset. <ul class="resume-item-list"><li>A project you are proud of</li><li>Another awesome project</li><li>or a team or department you worked with</li></ul>
+  description: My Research aims to <b>Understanding the Mechanisms</b> of Semantic Segmentation Neural Network in order to <b>overcome Class Imbalance Problem</b> such as Tubular Marker Dataset. <ul class="resume-item-list"><li>RoboTruck</li><li>RoboShuttle</li><li>RoboRide</li></ul>
+
+- project: Cloud Learning for Real-time Network Performance Improvement
+  role: Automated Database Screening Program
+  duration: 2021
+  #url: "https://www.youtube.com/watch?v=0W69PArCRMU"
+  description: My Research aims to <b>Understanding the Mechanisms</b> of Semantic Segmentation Neural Network in order to <b>overcome Class Imbalance Problem</b> such as Tubular Marker Dataset. <ul class="resume-item-list"><li>RoboTruck</li><li>RoboShuttle</li><li>RoboRide</li></ul>
