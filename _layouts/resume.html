@@ -110,9 +110,9 @@
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
           <p class="resume-item-copy">{{ project.description }}
           <ul class="resume-item-list">
-              {% for award in education.awards %}
-              <li>{{ award.award }}</li>
-              {% endfor %}
+              <li>{% if project.url1 %}<a href="{{ project.url1 }}" itemprop="url">{{ project.award1 }}</a>{% else %}{{ project.award1 }}{% endif %}</li>
+              <li>{% if project.url2 %}<a href="{{ project.url2 }}" itemprop="url">{{ project.award2 }}</a>{% else %}{{ project.award2 }}{% endif %}</li>
+              <li>{% if project.url3 %}<a href="{{ project.url3 }}" itemprop="url">{{ project.award3 }}</a>{% else %}{{ project.award3 }}{% endif %}</li>
           </ul>
           </p>
         </div>
