@@ -26,7 +26,10 @@ display_header_contact_info:    "false"
 resume_header_intro: "<p>
 <br>I am a <b>Software Research Engineer</b> with the Autonomous Driving Software Development Team, <b>Hyundai Motor Company</b>, Korea.
 <br>I am deeply interested in <b>Addressing Challenges in Perception</b> using Computer Vision and Camera Geometry, Object Tracking, and Deep Learning.
-<br>My research goal is to develop <b>Camera-based Full Self-Driving</b>.</p>"
+<br><br>My vision aims at developing <b>Camera-based Full Self-Driving</b>.</p>"
+resume_header_challenge1: "Perception-based planning and control"
+resume_header_challenge2: "Solving Geometric Gap between 3D world and its projection"
+resume_header_challenge3: "Unlocking the computational and mathematical Deep Learning Model"
 
 
 # use "yes" to display the email contact button,
