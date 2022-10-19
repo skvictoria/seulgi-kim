@@ -114,8 +114,8 @@
             {% endif %}
           </p>
           {%if project.img_src %}
-          <div style="text-align : center;height:100px; width:200px;object-fit:cover">
-            <img src={{project.img_src}}>
+          <div style="text-align : center;height:100px; width:200px;">
+            <img src={{project.img_src}} style="max-width: 100%; max-height: 100%" />
           </div>
           {% endif %}
           
