@@ -112,14 +112,13 @@
             {%if project.video_demo %}
             [<a href={{project.video_demo}} target="_blank"><strong>demo</strong></a>]
             {% endif %}
-          </p>
-          {%if project.img_src %}
-          <div style="text-align : center;height:100px; width:200px;">
-            <img src={{project.img_src}} style="max-width: 100%; max-height: 100%" />
-          </div>
+            
+            {%if project.img_src %}
+              <div style="text-align : center;height:100px; width:200px;">
+                <img src={{project.img_src}} style="max-width: 100%; max-height: 100%" />
+              </div>
           {% endif %}
-          
-          
+          </p>
         </div>
         {% endfor %}
 
