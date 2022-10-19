@@ -4,7 +4,7 @@
 // util
 
 .section-header {
-  @include section_border_thin;
+  @include section_border;
   margin-bottom: 1.5rem;
 
   h2 {
