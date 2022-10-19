@@ -111,8 +111,12 @@
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
           <p class="resume-item-copy">{{ project.description }}
           </p>
-          {%if project.video_1 %}
-         {{project.video_1}}
+          {%if project.img_src %}
+          <img src=project.img_src>
+          {% endif %}
+          
+          {%if project.video_demo %}
+          <a href=project.video_demo target="_blank"><p align="center"><strong>demo</strong></p></a>
           {% endif %}
         </div>
         {% endfor %}
