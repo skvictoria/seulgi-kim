@@ -24,8 +24,8 @@ resume_header_contact_info:     "742 Evergreen Terrace, Springfield • 555-7334
 display_header_contact_info:    "false"
 
 resume_header_intro: "<p>
-<br>I am a <b>Research Engineer</b> with the Autonomous Driving SW Development Team, <b>Hyundai Motor Company</b>, Korea.
-<br>I am interested in <b>Addressing Challenges in Perception</b> using Computer Vision and Camera Geometry, Object Tracking, and Deep Learning.
+<br>I am a <b>Software Research Engineer</b> with the Autonomous Driving SW Development Team, <b>Hyundai Motor Company</b>, Korea.
+<br>I am deeply interested in <b>Addressing Challenges in Perception</b> using Computer Vision and Camera Geometry, Object Tracking, and Deep Learning.
 <br>My research goal is to develop <b>Camera-based Full Self-Driving</b>.</p>"
 
 
