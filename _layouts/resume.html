@@ -110,7 +110,7 @@
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}  &bull; {{ project.duration }}</h4>
           <p class="resume-item-copy">{{ project.description }}
             {%if project.video_demo %}
-            <br>[<a href={{project.video_demo}} target="_blank"><strong>demo</strong></a>]
+            <br><p style="text-align:center;">[<a href={{project.video_demo}} target="_blank"><strong>demo</strong></a>]</p>
             {% endif %}
             
             {%if project.img_src %}
