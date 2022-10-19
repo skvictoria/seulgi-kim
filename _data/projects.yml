@@ -2,14 +2,20 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
+- project: A Vehicle Motion Intention Prediction based on Deep Learning
+  role: Oral Presentation at Hyundai Motor Group Conference
+  duration: 2021
+  img_src: "images/freespace.png"
+  img_explain: "2D Map of Drivable Surface"
+  description: I developed <b>Perception based Planning system</b> by fusing 3D LiDAR with Camera. By predicting the following frames instead of planning and controlling per frames, the image latency problem can also be desolved. I won <b>Excellence Paper Certification</b> in Hyundai Motor Group Conference.
+
 - project: Lv.3 Advanced Driver Assistance System
   role: Drivable Surface & Curb Detection Algorithm
   duration: 2022 &mdash; Present
   img_src: "images/freespace.png"
   img_explain: "2D Map of Drivable Surface"
   description: My group aims at <b>overcoming the challenges</b> in images, especially <b>Distance Estimation Problem</b> in single Camera. Our vision is to enable <b>Robust 3D Map</b> of Drivable Surface.
-  
-# Springfield Community Outreach Group
+
 - project: Lv.4 Autonomous Driving Pilot Service
   role: Front and FrontSide Segmentation based Detection
   duration: 2021 &mdash; Present
@@ -17,6 +23,19 @@
   img_explain: "Pilot Service"
   video_demo: "https://youtu.be/0W69PArCRMU?t=82"
   description: My Research aims at <b>Understanding the Mechanisms</b> of Semantic Segmentation Neural Network in order to <b>overcome Class Imbalance Problem</b>.
+
+- project: Personalized Car-Sharing Service based on Deep Learning
+  role: Made Ni-Car-Nae-Car in Idea Festival at Hyundai Motor Group
+  duration: 2021
+  img_src: "images/mission.PNG"
+  img_explain: "Pilot Service"
+  video_demo: "https://www.youtube.com/watch?app=desktop&v=ti5-qb5g158&feature=youtu.be"
+  description: Our group aims at developing personalized, shared-car by developing learning-based personalized seat controller and center-Fascia. We won <b>Excellence Prize</b> in Idea Festival, Hyundai Motor Group.
+
+- project: Active Learning for Efficient Deep Learning
+  role: AI Competition, Hyundai Motor Group
+  duration: 2021
+  description: Our group aims at developing active learning model by learning loss of the model. We developed task-agonistic & Data-agonistic model for versatility.
 
 - project: Cloud Learning for Real-time Network Performance Improvement
   role: Automated Database Screening Program
