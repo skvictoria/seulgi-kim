@@ -6,6 +6,7 @@
   role: Drivable Surface & Curb Detection Algorithm
   duration: 2022 &mdash; Present
   img_src: "images/freespace.png"
+  img_explain: "2D Map of Drivable Surface"
   description: My group aims at <b>overcoming the challenges</b> in images, especially <b>Distance Estimation Problem</b> in single Camera. Our vision is to enable <b>Robust 3D Map</b> of Drivable Surface.
   
 # Springfield Community Outreach Group
@@ -13,6 +14,7 @@
   role: Front and FrontSide Segmentation based Detection
   duration: 2021 &mdash; Present
   img_src: "images/mission.PNG"
+  img_explain: "Pilot Service"
   video_demo: "https://youtu.be/0W69PArCRMU?t=82"
   description: My Research aims at <b>Understanding the Mechanisms</b> of Semantic Segmentation Neural Network in order to <b>overcome Class Imbalance Problem</b>.
 
