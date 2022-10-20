@@ -179,9 +179,22 @@
         </header>
 
         {% for recognition in site.data.recognitions %}
-        <div class="resume-item">
+        <div class="resume-item" style="text-align : center;">
           <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
           <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
+          {% if recognition.url_2017_1 %}
+          [<a href="{{ recognition.url_2017_1 }}" itemprop="url">2017-1st</a>] [<a href="{{ recognition.url_2017_2 }}" itemprop="url">2017-2nd</a>]
+          [<a href="{{ recognition.url_2018_1 }}" itemprop="url">2018-1st</a>] [<a href="{{ recognition.url_2018_2 }}" itemprop="url">2018-2nd</a>]
+          {% endif %}
+          
+          {% if recognition.url_activities %}
+           [<a href="{{ recognition.url_activities }}" itemprop="url">Activities</a>]
+          {% endif %}
+          
+          {% if recognition.url_activities %}
+           [<a href="{{ recognition.url_certificates }}" itemprop="url">Certificate</a>]
+          {% endif %}
+          
           <p class="resume-item-copy">{{ recognition.summary }}</p>
         </div>
         {% endfor %}
