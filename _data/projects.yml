@@ -18,11 +18,11 @@
 - project: Lv.4 Autonomous Driving Pilot Service
   role: Front and FrontSide Segmentation based Detection
   duration: 2021 &mdash; Present
-  img_src: "images/mission.PNG"
-  img_explain: "Pilot Service"
   video_demo: "https://youtu.be/0W69PArCRMU?t=82"
   description: My Research aims at <b>Understanding the Mechanisms</b> of Semantic Segmentation Neural Network in order to <b>overcome Class Imbalance Problem</b>.
-
+#   img_src: "images/mission.PNG"
+#   img_explain: "Pilot Service"
+  
 - project: Personalized Car-Sharing Service based on Deep Learning
   role: Ni-Car-Nae-Car
   role2: Idea Festival at Hyundai Motor Group
