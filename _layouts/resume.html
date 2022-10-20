@@ -154,7 +154,15 @@
         {% for skill in site.data.skills %}
         <div class="resume-item">
           <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          <p class="resume-item-copy">{{ skill.description }}</p>
+          
+          <p class="resume-item-copy">
+          {%if skill.url %}
+            <a href={{project.presentation_demo}} target="_blank"><strong><u>{{ skill.description }}</u></a>
+          {% else %}
+            {{skill.description}}
+          {% endif %}
+          </p>
+          <br>
         </div>
         {% endfor %}
 
