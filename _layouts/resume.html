@@ -57,8 +57,8 @@
         </header>
 
         {% for education in site.data.education %}
-        <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-title" itemprop="name">{{ education.uni }} &bull; {{ education.year }}</h3>
+        <div class="resume-item" style="text-align : center;" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
+          <h3 class="resume-item-title" itemprop="name">{{ education.uni }} <br> &bull; {{ education.year }}</h3>
           <!-- <h4 class="resume-item-details group" itemprop="description">{{ education.degree }}</h4> -->
           <p class="resume-item-copy" itemprop="description">{{ education.degree }}</p>
           <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
@@ -86,7 +86,7 @@
         </header>
 
         {% for job in site.data.experience %}
-        <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
+        <div class="resume-item" style="text-align : center;" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
           <p class="resume-item-copy" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</p>
           <p class="resume-item-copy">{{ job.summary }}</p>
@@ -119,6 +119,7 @@
                 <br>{{project.img_explain}}
               </div>
           {% endif %}
+          <br>
           </p>
         </div>
         {% endfor %}
