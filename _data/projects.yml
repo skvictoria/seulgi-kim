@@ -7,7 +7,7 @@
   role2: Oral Presentation at Hyundai Motor Group Conference
   role2_url: "https://www.hyundai.co.kr/tv/CONT0000000000004828"
   duration: 2021
-  description: I developed <b>Perception based Planning system</b> by fusing 3D LiDAR with Camera. By predicting the following frames instead of planning and controlling per frames, the image latency problem can also be desolved. <br> Won <b style='color:blue !important;'>Excellence Paper Certification</b> in Hyundai Motor Group Conference.
+  description: I developed <b>Perception based Planning system</b> by the low-level fusion of 3D LiDAR with Camera. By predicting the following frames instead of planning and controlling per frames, the image latency problem can also be desolved. <br> Won <b style='color:teal !important;'>Excellence Paper Certification</b>
 
 - project: Lv.3 Advanced Driver Assistance System
   role: Drivable Surface & Curb Detection Algorithm
@@ -23,7 +23,8 @@
   description: My Research aims at <b>Understanding the Mechanisms</b> of Semantic Segmentation Neural Network in order to <b>overcome Class Imbalance Problem</b>.
 
 - project: Personalized Car-Sharing Service based on Deep Learning
-  role: Made Ni-Car-Nae-Car in Idea Festival at Hyundai Motor Group
+  role: Ni-Car-Nae-Car
+  role2: Idea Festival at Hyundai Motor Group
   duration: 2021
   img_src: "images/mission.PNG"
   img_explain: "Pilot Service"
