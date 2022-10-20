@@ -2,7 +2,7 @@
 # uncomment the urls if you wish to display them, and add your own URL
 
 # jazznotes.io
-- project: A Vehicle Motion Intention Prediction based on Deep Learning
+- project: Deep-Learning based Vehicle Motion Intention Prediction
   role: <u>Seulgi Kim</u>, Yimju Kang, Jinyoung Kim, Wonjoon Jin
   role2: Oral Presentation at Hyundai Motor Group Conference
   role2_url: "https://www.hyundai.co.kr/tv/CONT0000000000004828"
@@ -24,7 +24,7 @@
 #   img_src: "images/mission.PNG"
 #   img_explain: "Pilot Service"
   
-- project: Personalized Car-Sharing Service based on Deep Learning
+- project: Deep-Learning based Personalized Car-Sharing Service
   role: Ni-Car-Nae-Car
   role2: Idea Festival at Hyundai Motor Group
   duration: 2021
@@ -38,12 +38,12 @@
   duration: 2021
   description: Our group aims at developing active learning model by learning loss of the model. We developed task-agonistic & Data-agonistic model for versatility.
 
-- project: Cloud Learning for Real-time Network Performance Improvement
+- project: Cloud Learning - Realtime Network Performance Improvement
   role: Automated Database Screening Program
   duration: 2021
   description: My Research aims to Improve the Performance of Deep Learning Model by <b>Sampling Uncertainties</b> and acquiring the data that the model has difficulty with.
 
-- project: Advanced FCA - An ADAS System that informs accidents by predicting Cut-In
+- project: Advanced FCA - Deep Learning based ADAS System
   role: Smart Mobility Project, Hyundai Motor Group
   duration: 2020
   video_demo: "https://drive.google.com/file/d/1kn3ybtOmX5JBy9htXnSLqbSjUvh7tC5O/view?usp=sharing"
