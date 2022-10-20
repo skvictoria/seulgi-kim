@@ -156,10 +156,9 @@
           <h4 class="resume-item-details">{{ skill.skill }}</h4>
           
           <p class="resume-item-copy">
-          {%if skill.url %}
-            <a href={{project.presentation_demo}} target="_blank"><strong><u>{{ skill.description }}</u></a>
-          {% else %}
             {{skill.description}}
+          {%if skill.url %}
+            [<a href={{project.presentation_demo}} target="_blank"><strong>Book</a>] 
           {% endif %}
           </p>
           <br>
