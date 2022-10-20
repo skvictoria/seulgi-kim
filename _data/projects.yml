@@ -3,7 +3,9 @@
 
 # jazznotes.io
 - project: A Vehicle Motion Intention Prediction based on Deep Learning
-  role: <u>Seulgi Kim</u>, Yimju Kang, Jinyoung Kim, Wonjoon Jin <br> <br> Oral Presentation at Hyundai Motor Group Conference
+  role: <u>Seulgi Kim</u>, Yimju Kang, Jinyoung Kim, Wonjoon Jin
+  role2: Oral Presentation at Hyundai Motor Group Conference
+  role2_url: "https://www.hyundai.co.kr/tv/CONT0000000000004828"
   duration: 2021
   description: I developed <b>Perception based Planning system</b> by fusing 3D LiDAR with Camera. By predicting the following frames instead of planning and controlling per frames, the image latency problem can also be desolved. <br> Won <b style='color:blue !important;'>Excellence Paper Certification</b> in Hyundai Motor Group Conference.
 
