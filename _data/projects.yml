@@ -7,7 +7,7 @@
   role2: Oral Presentation at Hyundai Motor Group Conference
   role2_url: "https://www.hyundai.co.kr/tv/CONT0000000000004828"
   duration: 2021
-  description: I developed <b>Perception based Planning system</b> by the low-level fusion of 3D LiDAR with Camera. Our envision is to dissolve the problem of Planning and Control due to Image Latency by predicting the following frames instead of planning and controlling per frames. .
+  description: My group developed <b>Perception based Planning system</b> by the low-level fusion of 3D LiDAR with Camera. We envision dissolving the problem of Planning and Control due to Image Latency by predicting the following frames instead of planning and controlling per frames. .
   prize: <b style='color:Maroon !important;'>Excellence Paper Certification</b>
   prize_url: "https://drive.google.com/file/d/1-UbqK10iwXC60Dq9u9iSxetAONY2zQSy/view?usp=sharing"
 
@@ -20,7 +20,7 @@
   role: Front and FrontSide Segmentation based Detection
   duration: 2021 &mdash; Present
   video_demo: "https://youtu.be/0W69PArCRMU?t=82"
-  description: My Research aims at <b>Understanding the Mechanisms</b> of Semantic Segmentation Neural Network in order to <b>overcome Class Imbalance Problem</b>, as well as Detecting Tubular Marker and make robust Control Signals based on Perception.
+  description: My Research aims at <b>Understanding the Mechanisms</b> of Semantic Segmentation Neural Network in order to <b>overcome Class Imbalance Problem</b>, as well as Detecting Tubular Marker and Making <b>robust Control Signals</b> based on Perception.
 #   img_src: "images/mission.PNG"
 #   img_explain: "Pilot Service"
   
