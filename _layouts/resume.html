@@ -115,7 +115,7 @@
           {% else %}
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}&bull; {{ project.duration }}</h4>
           {% endif %}
-          <p class="resume-item-copy">{{ project.description }}
+          <p class="resume-item-copy" style="text-align : left;">{{ project.description }}
             {%if project.video_demo %}
             <br><p style="text-align:center;">[<a href={{project.video_demo}} target="_blank"><strong>Demo</strong></a>]</p>
             {% endif %}
