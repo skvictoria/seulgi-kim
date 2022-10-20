@@ -20,7 +20,7 @@
   role: Front and FrontSide Segmentation based Detection
   duration: 2021 &mdash; Present
   video_demo: "https://youtu.be/0W69PArCRMU?t=82"
-  description: My Research aims at <b>Understanding the Mechanisms</b> of Semantic Segmentation Neural Network in order to <b>overcome Class Imbalance Problem</b>.
+  description: My Research aims at <b>Understanding the Mechanisms</b> of Semantic Segmentation Neural Network in order to <b>overcome Class Imbalance Problem</b>, as well as Detecting Tubular Marker and make robust Control Signals based on Perception.
 #   img_src: "images/mission.PNG"
 #   img_explain: "Pilot Service"
   
