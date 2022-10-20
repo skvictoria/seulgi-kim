@@ -38,10 +38,10 @@
   duration: 2021
   description: Our group aims at developing active learning model by learning loss of the model. We developed task-agonistic & Data-agonistic model for versatility.
 
-- project: Cloud Learning - Realtime Network Performance Improvement
+- project: Cloud Learning
   role: Automated Database Screening Program
   duration: 2021
-  description: My Research aims to Improve the Performance of Deep Learning Model by <b>Sampling Uncertainties</b> and acquiring the data that the model has difficulty with.
+  description: My Research aims to Improve the Performance of Deep Learning Model in <b>Real time</b> by <b>Sampling Uncertainties</b> and acquiring the data that the model has difficulty with.
 
 - project: Advanced FCA - Deep Learning based ADAS System
   role: Smart Mobility Project, Hyundai Motor Group
@@ -54,4 +54,4 @@
   role: Research Intern, Hyundai Motor Group
   duration: 2020
   video_demo: "https://drive.google.com/file/d/1JgirXhQLLBStehTv7Cd2qZtAxUVpWK3E/view?usp=sharing"
-  description: My Research aims to make Dead-Reckoning Algorithm for Autonomous Vehicle by Recognizing the drivable surface.
+  description: My Research aims to make <b>Dead-Reckoning and Planning Algorithm based on Perception</b> for Autonomous Vehicle by Recognizing the drivable surface.
