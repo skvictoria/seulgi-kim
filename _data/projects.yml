@@ -7,7 +7,8 @@
   role2: Oral Presentation at Hyundai Motor Group Conference
   role2_url: "https://www.hyundai.co.kr/tv/CONT0000000000004828"
   duration: 2021
-  description: I developed <b>Perception based Planning system</b> by the low-level fusion of 3D LiDAR with Camera. By predicting the following frames instead of planning and controlling per frames, the image latency problem can also be desolved. <br> <b style='color:Maroon !important;'>Excellence Paper Certification</b>
+  description: I developed <b>Perception based Planning system</b> by the low-level fusion of 3D LiDAR with Camera. By predicting the following frames instead of planning and controlling per frames, the image latency problem can also be desolved.
+  prize: <b style='color:Maroon !important;'>Excellence Paper Certification</b>
 
 - project: Lv.3 Advanced Driver Assistance System
   role: Drivable Surface & Curb Detection Algorithm
@@ -27,7 +28,8 @@
   role2: Idea Festival at Hyundai Motor Group
   duration: 2021
   video_demo: "https://www.youtube.com/watch?app=desktop&v=ti5-qb5g158&feature=youtu.be"
-  description: Our group aims at developing personalized, shared-car by developing learning-based personalized seat controller and center-Fascia. <br><b style='color:Maroon !important;'>Excellence Prize</b>
+  description: Our group aims at developing personalized, shared-car by developing learning-based personalized seat controller and center-Fascia.
+  prize: <b style='color:Maroon !important;'>Excellence Prize</b>
 
 - project: Active Learning for Efficient Deep Learning
   role: AI Competition, Hyundai Motor Group
@@ -50,4 +52,4 @@
   role: Research Intern, Hyundai Motor Group
   duration: 2020
   video_demo: "https://drive.google.com/file/d/1JgirXhQLLBStehTv7Cd2qZtAxUVpWK3E/view?usp=sharing"
-  description: My Research aims to <b>Understanding the difficulties of Deep Learning Model</b> in order to improve its performance.
+  description: My Research aims to make Dead-Reckoning Algorithm for Autonomous Vehicle by Recognizing the drivable surface.
