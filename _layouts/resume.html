@@ -120,22 +120,22 @@
           <h4 class="resume-item-details" itemprop="name"><a href="{{ project.prize_url }}" itemprop="url">{{project.prize}}</a></h4>
           {% endif %}
           
+          {%if project.video_demo %}
+          <p style="text-align:center;">
+              [<a href={{project.video_demo}} target="_blank"><strong>Demo</strong></a>]
+          {%if project.presentation_demo %}
+              [<a href={{project.presentation_demo}} target="_blank"><strong>Presentation</strong></a>]
+          {% endif %}
+          </p>
+          {% endif %}
           <p class="resume-item-copy" style="text-align : left;">
-            {%if project.video_demo %}
-            <p style="text-align:center;">
-                [<a href={{project.video_demo}} target="_blank"><strong>Demo</strong></a>]
-            {%if project.presentation_demo %}
-                [<a href={{project.presentation_demo}} target="_blank"><strong>Presentation</strong></a>]
-            {% endif %}
-            </p>
-            {% endif %}
             {{ project.description }}
             {%if project.img_src %}
               <div style="text-align : center;height:200px; width:400px;margin-left:auto; margin-right:auto;">
                 <img src={{project.img_src}} style="max-width: 100%; max-height: 100%" />
                 <br>{{project.img_explain}}
               </div>
-          {% endif %}
+            {% endif %}
           </p>
         <br> <br>
         </div>
