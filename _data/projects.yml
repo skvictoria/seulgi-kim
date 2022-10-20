@@ -7,7 +7,7 @@
   role2: Oral Presentation at Hyundai Motor Group Conference
   role2_url: "https://www.hyundai.co.kr/tv/CONT0000000000004828"
   duration: 2021
-  description: I developed <b>Perception based Planning system</b> by the low-level fusion of 3D LiDAR with Camera. By predicting the following frames instead of planning and controlling per frames, the image latency problem can also be desolved. <br> Won <b style='color:teal !important;'>Excellence Paper Certification</b>
+  description: I developed <b>Perception based Planning system</b> by the low-level fusion of 3D LiDAR with Camera. By predicting the following frames instead of planning and controlling per frames, the image latency problem can also be desolved. <br> <b style='color:Maroon !important;'>Excellence Paper Certification</b>
 
 - project: Lv.3 Advanced Driver Assistance System
   role: Drivable Surface & Curb Detection Algorithm
@@ -26,10 +26,8 @@
   role: Ni-Car-Nae-Car
   role2: Idea Festival at Hyundai Motor Group
   duration: 2021
-  img_src: "images/mission.PNG"
-  img_explain: "Pilot Service"
   video_demo: "https://www.youtube.com/watch?app=desktop&v=ti5-qb5g158&feature=youtu.be"
-  description: Our group aims at developing personalized, shared-car by developing learning-based personalized seat controller and center-Fascia. We won <b>Excellence Prize</b> in Idea Festival, Hyundai Motor Group.
+  description: Our group aims at developing personalized, shared-car by developing learning-based personalized seat controller and center-Fascia. <br><b style='color:Maroon !important;'>Excellence Prize</b>
 
 - project: Active Learning for Efficient Deep Learning
   role: AI Competition, Hyundai Motor Group
@@ -41,11 +39,10 @@
   duration: 2021
   description: My Research aims to Improve the Performance of Deep Learning Model by <b>Sampling Uncertainties</b> and acquiring the data that the model has difficulty with.
 
-- project: Smart Mobility Project
-  role: Automated Database Screening Program
-  duration: 2021
-  video_link: "https://drive.google.com/file/d/1kn3ybtOmX5JBy9htXnSLqbSjUvh7tC5O/view?usp=sharing"
-  
+- project: Advanced FCA : An ADAS System that informs accidents by predicting Cut-In
+  role: Smart Mobility Project, Hyundai Motor Group
+  duration: 2020
+  video_demo: "https://drive.google.com/file/d/1kn3ybtOmX5JBy9htXnSLqbSjUvh7tC5O/view?usp=sharing"
   description: Our group aims at make an ADAS System that proactively informs an accident through <b>Vehicle Behavior Prediction</b> through Deep Learning.
 
 - project: Cloud Learning for Real-time Network Performance Improvement
