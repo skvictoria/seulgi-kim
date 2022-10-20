@@ -3,11 +3,9 @@
 
 # jazznotes.io
 - project: A Vehicle Motion Intention Prediction based on Deep Learning
-  role: Oral Presentation at Hyundai Motor Group Conference
+  role: <b>Seulgi Kim</b>, Yimju Kang, Jinyoung Kim, Wonjoon Jin <br>Oral Presentation at Hyundai Motor Group Conference
   duration: 2021
-  img_src: "images/freespace.png"
-  img_explain: "2D Map of Drivable Surface"
-  description: I developed <b>Perception based Planning system</b> by fusing 3D LiDAR with Camera. By predicting the following frames instead of planning and controlling per frames, the image latency problem can also be desolved. I won <b>Excellence Paper Certification</b> in Hyundai Motor Group Conference.
+  description: I developed <b>Perception based Planning system</b> by fusing 3D LiDAR with Camera. By predicting the following frames instead of planning and controlling per frames, the image latency problem can also be desolved. <br> Won <b style='color:blue !important;'>Excellence Paper Certification</b> in Hyundai Motor Group Conference.
 
 - project: Lv.3 Advanced Driver Assistance System
   role: Drivable Surface & Curb Detection Algorithm
