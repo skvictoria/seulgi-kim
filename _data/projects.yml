@@ -9,6 +9,7 @@
   duration: 2021
   description: I developed <b>Perception based Planning system</b> by the low-level fusion of 3D LiDAR with Camera. By predicting the following frames instead of planning and controlling per frames, the image latency problem can also be desolved.
   prize: <b style='color:Maroon !important;'>Excellence Paper Certification</b>
+  prize_url: "https://drive.google.com/file/d/1-UbqK10iwXC60Dq9u9iSxetAONY2zQSy/view?usp=sharing"
 
 - project: Lv.3 Advanced Driver Assistance System
   role: Drivable Surface & Curb Detection Algorithm
@@ -30,6 +31,7 @@
   video_demo: "https://www.youtube.com/watch?app=desktop&v=ti5-qb5g158&feature=youtu.be"
   description: Our group aims at developing personalized, shared-car by developing learning-based personalized seat controller and center-Fascia.
   prize: <b style='color:Maroon !important;'>Excellence Prize</b>
+  prize_url: "https://drive.google.com/file/d/1Bx3Tfcc8air5d_WvtFxT62Ap3cbZRuMH/view?usp=sharing"
 
 - project: Active Learning for Efficient Deep Learning
   role: AI Competition, Hyundai Motor Group
