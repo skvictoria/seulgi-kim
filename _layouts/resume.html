@@ -34,7 +34,7 @@
           {% include icon-links.html %}
         </div>
 
-        <div class="executive-summary" itemprop="description">
+        <div class="executive-summary" style="text-align : center;" itemprop="description">
           {{ site.resume_header_intro }}
           <li>{{site.resume_header_challenge1}}</li>
           <li>{{site.resume_header_challenge2}}</li>
@@ -58,7 +58,7 @@
 
         {% for education in site.data.education %}
         <div class="resume-item" style="text-align : center;" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
-          <h3 class="resume-item-title" itemprop="name">{{ education.uni }} <br> &bull; {{ education.year }}</h3>
+          <h3 class="resume-item-title" itemprop="name">{{ education.uni }} ({{ education.year }})</h3>
           <!-- <h4 class="resume-item-details group" itemprop="description">{{ education.degree }}</h4> -->
           <p class="resume-item-copy" itemprop="description">{{ education.degree }}</p>
           <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}</h5>
@@ -71,6 +71,7 @@
 
 
           <p class="resume-item-copy">{{ education.summary }}</p>
+          <br>
         </div>
         {% endfor %}
       </section>
@@ -90,6 +91,7 @@
           <h3 class="resume-item-title" itemprop="name">{{ job.company }}</h3>
           <p class="resume-item-copy" itemprop="description">{{ job.position }} &bull; {{ job.duration }}</p>
           <p class="resume-item-copy">{{ job.summary }}</p>
+          <br>
         </div><!-- end of resume-item -->
         {% endfor %}
 
@@ -119,6 +121,7 @@
                 <br>{{project.img_explain}}
               </div>
           {% endif %}
+          <br>
           <br>
           </p>
         </div>
