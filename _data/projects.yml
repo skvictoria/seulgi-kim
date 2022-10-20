@@ -43,9 +43,11 @@
   role: Smart Mobility Project, Hyundai Motor Group
   duration: 2020
   video_demo: "https://drive.google.com/file/d/1kn3ybtOmX5JBy9htXnSLqbSjUvh7tC5O/view?usp=sharing"
+  presentation_demo: "https://www.youtube.com/watch?v=NjJ2G3LRRK8&t=645s"
   description: Our group aims at make an ADAS System that proactively informs an accident through <b>Vehicle Behavior Prediction</b> through Deep Learning.
 
-- project: Cloud Learning for Real-time Network Performance Improvement
-  role: Automated Database Screening Program
-  duration: 2021
+- project: Drivable Surface Recognition System
+  role: Research Intern, Hyundai Motor Group
+  duration: 2020
+  video_demo: "https://drive.google.com/file/d/1JgirXhQLLBStehTv7Cd2qZtAxUVpWK3E/view?usp=sharing"
   description: My Research aims to <b>Understanding the difficulties of Deep Learning Model</b> in order to improve its performance.
