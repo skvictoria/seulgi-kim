@@ -117,7 +117,7 @@
           {% endif %}
           
           {%if project.prize %}
-          <h4 class="resume-item-details" itemprop="name">{{project.prize}}</h4>
+          <h4 class="resume-item-details" itemprop="name"><a href="{{ project.prize_url }}" itemprop="url">{{project.prize}}</a></h4>
           {% endif %}
           
           <p class="resume-item-copy" style="text-align : left;">
