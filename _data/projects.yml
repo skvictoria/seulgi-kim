@@ -7,7 +7,7 @@
   role2: Oral Presentation at Hyundai Motor Group Conference
   role2_url: "https://www.hyundai.co.kr/tv/CONT0000000000004828"
   duration: 2021
-  description: I developed <b>Perception based Planning system</b> by the low-level fusion of 3D LiDAR with Camera. By predicting the following frames instead of planning and controlling per frames, the image latency problem can also be desolved.
+  description: I developed <b>Perception based Planning system</b> by the low-level fusion of 3D LiDAR with Camera. Our envision is to dissolve the problem of Planning and Control due to Image Latency by predicting the following frames instead of planning and controlling per frames. .
   prize: <b style='color:Maroon !important;'>Excellence Paper Certification</b>
   prize_url: "https://drive.google.com/file/d/1-UbqK10iwXC60Dq9u9iSxetAONY2zQSy/view?usp=sharing"
 
