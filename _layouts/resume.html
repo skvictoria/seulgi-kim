@@ -111,7 +111,7 @@
           <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
           {%if project.role2 %}
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
-          <h4 class="resume-item-details" itemprop="description">{{project.role2}}&bull; {{ project.duration }}</h4>
+          <h4 class="resume-item-details" itemprop="description">{% if project.role2_url %}<a href="{{ project.role2_url }}" itemprop="url">{{project.role2}}</a>{% else %}{{project.role2}}{% endif %}&bull; {{ project.duration }}</h4>
           {% else %}
           <h4 class="resume-item-details" itemprop="description">{{ project.role }}&bull; {{ project.duration }}</h4>
           {% endif %}
