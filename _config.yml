@@ -53,7 +53,7 @@ resume_section_interests:       false
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_pdf_url : "https://drive.google.com/file/d/1y9OGWYNNezuMT0P3eMNO0aaQ5tkPy-o1/view?usp=share_link"
+  resume_pdf_url :              "https://drive.google.com/file/d/1y9OGWYNNezuMT0P3eMNO0aaQ5tkPy-o1/view?usp=share_link"
   resume_github_url:            "https://github.com/skvictoria"
   #resume_twitter_url:           "http://twitter.com/jglovier"
   #resume_dribbble_url:          "https://dribbble.com/jag"
