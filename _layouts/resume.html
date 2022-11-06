@@ -155,13 +155,13 @@
         </header>
         {% for skill in site.data.skills %}
         <div class="resume-item">
-          <h4 class="resume-item-details">{{ skill.skill }}
+          <h4 class="resume-item-details">{{ skill.skill }}</h4>
           {%if skill.url %}
             <p style="text-align:center;">
             [<a href={{skill.url}} target="_blank"> Blog </a>]
             </p>
           {% endif %}
-          </h4>
+          
           
           <p class="resume-item-copy">
             {{skill.description}}
