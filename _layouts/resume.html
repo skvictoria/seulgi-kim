@@ -65,7 +65,7 @@
           <p class="resume-item-copy" itemprop="description">
             <ul class="resume-item-list">
               {% for award in education.awards %}
-              <li>{{ award.award }}</li>
+              <li>{{ award.award }} {% if education.certificate %}&bull; <strong>{{education.certificate}}</strong>{% endif %}</li>
               {% endfor %}
             </ul>
 
