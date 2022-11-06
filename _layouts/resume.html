@@ -61,8 +61,7 @@
           <h3 class="resume-item-title" itemprop="name">{{ education.uni }} ({{ education.year }})</h3>
           <!-- <h4 class="resume-item-details group" itemprop="description">{{ education.degree }}</h4> -->
           <p class="resume-item-copy" itemprop="description">{{ education.degree }}</p>
-          <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}
-          {% if education.certificate %}&bull; <strong>{{education.certificate}}</strong>{% endif %}
+          <h5 class="resume-item-details award-title" itemprop="description">{{ education.award }}{% if education.certificate %}&bull; <strong>{{education.certificate}}</strong>{% endif %}
           </h5>
           <p class="resume-item-copy" itemprop="description">
             <ul class="resume-item-list">
