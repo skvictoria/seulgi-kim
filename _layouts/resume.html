@@ -164,6 +164,10 @@
           
           
           <p class="resume-item-copy">
+            {%if skill.descriptionUS %}
+            <li>{{skill.description}}</li>
+            <li>{{skill.descriptionUS}}</li>
+            {% endif %}
             {{skill.description}}
           </p>
           <br>
