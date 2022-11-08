@@ -167,8 +167,9 @@
             {%if skill.descriptionUS %}
             <li>{{skill.description}}</li>
             <li>{{skill.descriptionUS}}</li>
-            {% endif %}
+            {% else %}
             {{skill.description}}
+            {% endif %}
           </p>
           <br>
         </div>
