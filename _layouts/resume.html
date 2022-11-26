@@ -101,12 +101,13 @@
       
       <br>
       <br>
+      
+      var flag=1;
 
       {% if site.resume_section_projects %}
       <section class="content-section">
         <header class="section-header">
           <h1 style="text-align : center;">Projects</h1>
-          var flag=1;
           {% for project in site.data.projects %}
               <div class="resume-item" style="text-align : center;" itemscope itemtype="http://schema.org/CreativeWork">
                 <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
