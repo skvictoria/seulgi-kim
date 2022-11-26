@@ -101,8 +101,6 @@
       
       <br>
       <br>
-      
-      let flag=1;
 
       {% if site.resume_section_projects %}
       <section class="content-section">
@@ -111,9 +109,8 @@
           {% for project in site.data.projects %}
               <div class="resume-item" style="text-align : center;" itemscope itemtype="http://schema.org/CreativeWork">
                 <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-                {%if flag===1 %}
+                {%if {{project.flag}} != '1' %}
                   <br><br>
-                  let flag = 0;
                 {% endif %}
                 <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
                 {%if project.role2 %}
