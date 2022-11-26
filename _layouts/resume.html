@@ -107,40 +107,40 @@
         <header class="section-header">
           <h1 style="text-align : center;">Projects</h1>
 
-            {% for project in site.data.projects %}
-          <div class="resume-item" style="text-align : center;" itemscope itemtype="http://schema.org/CreativeWork">
-            <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
-            <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
-            {%if project.role2 %}
-            <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
-            <h4 class="resume-item-details" itemprop="description">{% if project.role2_url %}<a href="{{ project.role2_url }}" itemprop="url">{{project.role2}}</a>{% else %}{{project.role2}}{% endif %}&bull; {{ project.duration }}</h4>
-            {% else %}
-            <h4 class="resume-item-details" itemprop="description">{{ project.role }}&bull; {{ project.duration }}</h4>
-            {% endif %}
+          {% for project in site.data.projects %}
+              <div class="resume-item" style="text-align : center;" itemscope itemtype="http://schema.org/CreativeWork">
+                <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
+                <br><br>
+                <h3 class="resume-item-title" itemprop="name">{% if project.url %}<a href="{{ project.url }}" itemprop="url">{{ project.project }}</a>{% else %}{{ project.project }}{% endif %}</h3>
+                {%if project.role2 %}
+                <h4 class="resume-item-details" itemprop="description">{{ project.role }}</h4>
+                <h4 class="resume-item-details" itemprop="description">{% if project.role2_url %}<a href="{{ project.role2_url }}" itemprop="url">{{project.role2}}</a>{% else %}{{project.role2}}{% endif %}&bull; {{ project.duration }}</h4>
+                {% else %}
+                <h4 class="resume-item-details" itemprop="description">{{ project.role }}&bull; {{ project.duration }}</h4>
+                {% endif %}
 
-            {%if project.prize %}
-            <h4 class="resume-item-details" itemprop="name"><a href="{{ project.prize_url }}" itemprop="url">{{project.prize}}</a></h4>
-            {% endif %}
+                {%if project.prize %}
+                <h4 class="resume-item-details" itemprop="name"><a href="{{ project.prize_url }}" itemprop="url">{{project.prize}}</a></h4>
+                {% endif %}
 
-            {%if project.video_demo %}
-            <p style="text-align:center;">
-                [<a href={{project.video_demo}} target="_blank"><strong>Demo</strong></a>]
-            {%if project.presentation_demo %}
-                [<a href={{project.presentation_demo}} target="_blank"><strong>Presentation</strong></a>]
-            {% endif %}
-            </p>
-            {% endif %}
-            <p class="resume-item-copy" style="text-align : left;">
-              {{ project.description }}
-              {%if project.img_src %}
-                <div style="text-align : center;height:200px; width:400px;margin-left:auto; margin-right:auto;">
-                  <img src={{project.img_src}} style="max-width: 100%; max-height: 100%" />
-                  <br>{{project.img_explain}}
-                </div>
-              {% endif %}
-            </p>
-          <br> <br>
-          </div>
+                {%if project.video_demo %}
+                <p style="text-align:center;">
+                    [<a href={{project.video_demo}} target="_blank"><strong>Demo</strong></a>]
+                {%if project.presentation_demo %}
+                    [<a href={{project.presentation_demo}} target="_blank"><strong>Presentation</strong></a>]
+                {% endif %}
+                </p>
+                {% endif %}
+                <p class="resume-item-copy" style="text-align : left;">
+                  {{ project.description }}
+                  {%if project.img_src %}
+                    <div style="text-align : center;height:200px; width:400px;margin-left:auto; margin-right:auto;">
+                      <img src={{project.img_src}} style="max-width: 100%; max-height: 100%" />
+                      <br>{{project.img_explain}}
+                    </div>
+                  {% endif %}
+                </p>
+              </div>
           {% endfor %}
           
         </header>
@@ -148,34 +148,38 @@
       </section>
       {% endif %}
 
+    
       {% if site.resume_section_skills %}
       <!-- begin Skills -->
       <section class="content-section">
 
         <header class="section-header">
           <h2 style="text-align : center;">Publications</h2>
-        </header>
-        {% for skill in site.data.skills %}
-        <div class="resume-item">
-          <h4 class="resume-item-details">{{ skill.skill }}</h4>
-          {%if skill.url %}
-            <p style="text-align:center;">
-              [<a href={{skill.url}} target="_blank"><strong> Blog </strong></a>]
-            </p>
-          {% endif %}
           
-          
-          <p class="resume-item-copy">
-            {%if skill.descriptionUS %}
-            <li>{{skill.description}}</li>
-            <li>{{skill.descriptionUS}}</li>
-            {% else %}
-            {{skill.description}}
-            {% endif %}
-          </p>
-          <br>
-        </div>
+          {% for skill in site.data.skills %}
+              <div class="resume-item">
+                <h4 class="resume-item-details">{{ skill.skill }}</h4>
+                {%if skill.url %}
+                  <p style="text-align:center;">
+                    [<a href={{skill.url}} target="_blank"><strong> Blog </strong></a>]
+                  </p>
+                {% endif %}
+
+
+                <p class="resume-item-copy">
+                  {%if skill.descriptionUS %}
+                  <li>{{skill.description}}</li>
+                  <li>{{skill.descriptionUS}}</li>
+                  {% else %}
+                  {{skill.description}}
+                  {% endif %}
+                </p>
+                <br>
+              </div>
         {% endfor %}
+          
+        </header>
+        
 
       </section>
       <!-- end Skills -->
