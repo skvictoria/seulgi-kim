@@ -193,29 +193,28 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h2 style="text-align : center;">Leadership Experiences</h2>
-        </header>
+          <h1 style="text-align : center;">Leadership Experiences</h1>
+          {% for recognition in site.data.recognitions %}
+              <div class="resume-item" style="text-align : center;">
+                <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
+                <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
+                {% if recognition.url_2017_1 %}
+                [<a href="{{ recognition.url_2017_1 }}" itemprop="url">2017-Spring</a>] [<a href="{{ recognition.url_2017_2 }}" itemprop="url">2017-Fall</a>]
+                [<a href="{{ recognition.url_2018_1 }}" itemprop="url">2018-Spring</a>] [<a href="{{ recognition.url_2018_2 }}" itemprop="url">2018-Fall</a>]
+                {% endif %}
 
-        {% for recognition in site.data.recognitions %}
-        <div class="resume-item" style="text-align : center;">
-          <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
-          <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
-          {% if recognition.url_2017_1 %}
-          [<a href="{{ recognition.url_2017_1 }}" itemprop="url">2017-Spring</a>] [<a href="{{ recognition.url_2017_2 }}" itemprop="url">2017-Fall</a>]
-          [<a href="{{ recognition.url_2018_1 }}" itemprop="url">2018-Spring</a>] [<a href="{{ recognition.url_2018_2 }}" itemprop="url">2018-Fall</a>]
-          {% endif %}
-          
-          {% if recognition.url_activities %}
-           [<a href="{{ recognition.url_activities }}" itemprop="url">Activities</a>]
-          {% endif %}
-          
-          {% if recognition.url_certificates %}
-           [<a href="{{ recognition.url_certificates }}" itemprop="url">Certificate</a>]
-          {% endif %}
-          
-          <p class="resume-item-copy">{{ recognition.summary }}</p>
-        </div>
+                {% if recognition.url_activities %}
+                 [<a href="{{ recognition.url_activities }}" itemprop="url">Activities</a>]
+                {% endif %}
+
+                {% if recognition.url_certificates %}
+                 [<a href="{{ recognition.url_certificates }}" itemprop="url">Certificate</a>]
+                {% endif %}
+
+                <p class="resume-item-copy">{{ recognition.summary }}</p>
+              </div>
         {% endfor %}
+        </header>
 
       </section>
       <!-- end Recognition -->
