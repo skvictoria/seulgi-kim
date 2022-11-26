@@ -51,7 +51,7 @@
       <!-- begin Education -->
       <section class="content-section">
         <header class="section-header">
-          <h1 style="text-align : center;">Education</h1>
+          <h1>Education</h1>
           {% for education in site.data.education %}
         <div class="resume-item" itemscope itemprop="alumniOf" itemtype="http://schema.org/CollegeOrUniversity">
           <h3 class="resume-item-title" itemprop="name" style="display:inline">{{ education.uni }} <h4 style="display:inline">({{ education.year }})</h4> </h3>
@@ -84,7 +84,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h1 style="text-align : center;">Work Experience</h1>
+          <h1>Work Experience</h1>
           {% for job in site.data.experience %}
           <div class="resume-item" itemscope itemprop="worksFor" itemtype="http://schema.org/Organization">
             <h3 class="resume-item-title" itemprop="name" style="display:inline">{{ job.company }} <h4 style="display:inline">({{job.duration}})</h4></h3>
