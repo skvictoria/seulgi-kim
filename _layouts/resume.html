@@ -17,7 +17,7 @@
 
         <!-- Your name is defined in the _config.yml file -->
         <h1 class="header-name" itemprop="name">{{ site.resume_name }}</h1>
-        <h2 style="text-align : center;">{{site.resume_contact_email}}</h2>
+        <h5 style="text-align : center;">{{site.resume_contact_email}}</h5>
 
         <!-- To display contact info here, change `display_header_contact_info` value in _config.yml to true -->
         {% if site.display_header_contact_info == 'true' %}
@@ -50,11 +50,13 @@
         {% endif %}
 
       </header>
+      
+      
       {% if site.resume_section_education %}
       <!-- begin Education -->
       <section class="content-section">
         <header class="section-header">
-          <h2 style="text-align : center;">Education</h2>
+          <h1 style="text-align : center;">Education</h1>
         </header>
 
         {% for education in site.data.education %}
