@@ -197,7 +197,7 @@
         <header class="section-header">
           <h1>Leadership Experiences</h1>
           {% for recognition in site.data.recognitions %}
-              <div class="resume-item" style="text-align : center;">
+              <div class="resume-item">
                 <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
                 <h4 class="resume-item-details">{{ recognition.organization }} &bull; {{ recognition.year }}</h4>
                 {% if recognition.url_2017_1 %}
