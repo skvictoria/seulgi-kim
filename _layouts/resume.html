@@ -31,7 +31,7 @@
         <div class="title-bar no-print">
 
           <!-- Your title is also defined in the _config.yml file -->
-          <h2 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h2>
+          <h1 class="header-title" itemprop="jobTitle">{{ site.resume_title }}</h1>
 
           <!-- This is the markup for the icon links; moved out to an include because it's very verbose, and you shouldn't ever need to edit the markup (unless you want to re-order the icons); if you want to customize which links appear, define them in the _config.yml file -->
           {% include icon-links.html %}
@@ -105,7 +105,7 @@
       {% if site.resume_section_projects %}
       <section class="content-section">
         <header class="section-header">
-          <h1 style="text-align : center;">Projects</h1>
+          <h1>Projects</h1>
           {% for project in site.data.projects %}
               <div class="resume-item" style="text-align : center;" itemscope itemtype="http://schema.org/CreativeWork">
                 <meta itemprop="creator" content="{{ site.resume_name }}" itemtype="http://schema.org/Person" />
@@ -157,7 +157,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h1 style="text-align : center;">Publications</h1>
+          <h1>Publications</h1>
           
           {% for skill in site.data.skills %}
               <div class="resume-item">
@@ -195,7 +195,7 @@
       <section class="content-section">
 
         <header class="section-header">
-          <h1 style="text-align : center;">Leadership Experiences</h1>
+          <h1>Leadership Experiences</h1>
           {% for recognition in site.data.recognitions %}
               <div class="resume-item" style="text-align : center;">
                 <h3 class="resume-item-title" itemprop="award">{{ recognition.award }}</h3>
