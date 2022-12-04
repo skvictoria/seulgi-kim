@@ -6,6 +6,11 @@
   <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_website_url }}" class="icon-link" itemprop="url">{% include icons/icon-website.html %}</a></li>
   {% endif %}
  
+ <!-- LinkedIn link -->
+  {% if site.resume_social_links.resume_linkedin_url %}
+  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_linkedin_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-linkedin.html %}</a></li>
+  {% endif %}
+ 
   <!-- CV link -->
   {% if site.resume_social_links.resume_pdf_url %}
   <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_pdf_url }}" class="icon-link" itemprop="url">{% include icons/icon-pdf.html %}</a></li>
@@ -36,11 +41,6 @@
   <!-- Facebook link -->
   {% if site.resume_social_links.resume_facebook_url %}
   <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_facebook_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-facebook.html %}</a></li>
-  {% endif %}
-
-  <!-- LinkedIn link -->
-  {% if site.resume_social_links.resume_linkedin_url %}
-  <li class="icon-link-item"><a href="{{ site.resume_social_links.resume_linkedin_url }}" class="icon-link" itemprop="sameAs">{% include icons/icon-linkedin.html %}</a></li>
   {% endif %}
 
   <!-- Instagram link -->
