@@ -58,6 +58,6 @@
   description: My Research aims to make <b>Dead-Reckoning and Planning Algorithm based on Perception</b> for Autonomous Vehicle by Recognizing the drivable surface.
 
 - project: Development of real-time object recognition in image
-  role: Undergraduate Researcher, Seoul National University Lab of "Physical Properties and Process Engineering of Agricultural Products"
+  role: Undergraduate Researcher, Seoul National University
   duration: 2019 - 2020
-  description: Participated in projects for recognizing the diseases that crops had by a camera.
+  description: Our lab aims at detecting crops' diseases in images. I participated in two projects titled "Development of Real-time Object Recognition Technology based on Image" and "Development of Image-based Strawberry Pest and Disease Recognizer for Horticulture Facility Vehicle".
