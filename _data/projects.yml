@@ -12,7 +12,7 @@
   prize: <b style='color:Maroon !important;'>Excellence Paper Certification</b>
   prize_url: "https://drive.google.com/file/d/1-UbqK10iwXC60Dq9u9iSxetAONY2zQSy/view?usp=sharing"
 
-- project: Lv.3 Advanced Driver Assistance System
+- project: ADAS Production Vehicle Development (Lv.3 ADAS system)
   role: Drivable Surface & Curb Detection Algorithm
   duration: 2022 &mdash; Present
   description: My group aims at <b>overcoming the challenges</b> in images, especially <b>Distance Estimation Problem</b> in single Camera. Our vision is to enable <b>Robust 3D Map</b> of Drivable Surface.
@@ -25,7 +25,7 @@
 #   img_src: "images/mission.PNG"
 #   img_explain: "Pilot Service"
   
-- project: Deep-Learning based Personalized Car-Sharing Service
+- project: Personalized Car-Sharing Service based on Deep Learning
   role: Ni-Car-Nae-Car
   role2: Idea Festival at Hyundai Motor Group
   duration: 2021
@@ -56,3 +56,8 @@
   duration: 2020
   video_demo: "https://drive.google.com/file/d/1JgirXhQLLBStehTv7Cd2qZtAxUVpWK3E/view?usp=sharing"
   description: My Research aims to make <b>Dead-Reckoning and Planning Algorithm based on Perception</b> for Autonomous Vehicle by Recognizing the drivable surface.
+
+- project: Development of real-time object recognition in image
+  role: Undergraduate Researcher, Seoul National University Lab of "Physical Properties and Process Engineering of Agricultural Products"
+  duration: 2019 - 2020
+  description: Participated in projects for recognizing the diseases that crops had by a camera.
