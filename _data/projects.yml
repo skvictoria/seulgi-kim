@@ -47,7 +47,7 @@
 - project: Advanced FCA - Deep Learning based ADAS System
   role: Smart Mobility Project, Hyundai Motor Group
   duration: 2020
-  video_demo: <video 360="" autoplay="" loop="" muted="" width="560 height="> <source src="https://drive.google.com/uc?&amp;id=1HYjCKqztntMAuOgUJrYqgNHsIburp_an" type="video/webm"></source></video>
+  video_demo: <video 360="" width="560 height="> <source src="https://drive.google.com/uc?&amp;id=1HYjCKqztntMAuOgUJrYqgNHsIburp_an" type="video/webm"></source></video>
   presentation_demo: <iframe width="560" height="315" src="https://www.youtube.com/embed/NjJ2G3LRRK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   description: Our group aims at make an ADAS System that proactively informs an accident through <b>Vehicle Behavior Prediction</b> through Deep Learning.
 
