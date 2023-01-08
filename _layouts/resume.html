@@ -131,10 +131,7 @@
 
                 {%if project.video_demo %}
                 <p style="text-align:center;">
-                    <video  src="{{project.video_demo}}"  controls>Demo Video</video>
-                {%if project.presentation_demo %}
-                    <video  src="{{project.presentation_demo}}"  controls>Presentation</video>
-                {% endif %}
+                    {{project.video_demo}}
                 </p>
                 {% endif %}
                 <p class="resume-item-copy" style="text-align : left;">
