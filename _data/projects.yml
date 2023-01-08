@@ -20,7 +20,7 @@
 - project: Lv.4 Autonomous Driving Pilot Service
   role: Front and FrontSide Segmentation based Detection
   duration: 2021 &mdash; Present
-  video_demo: "https://youtu.be/0W69PArCRMU?t=82"
+  video_demo: <iframe width="560" height="315" src="https://www.youtube.com/embed/0W69PArCRMU?start=81" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   description: My Research aims at <b>Understanding the Mechanisms</b> of Semantic Segmentation Neural Network in order to <b>overcome Class Imbalance Problem</b>, as well as Detecting Tubular Marker and Making <b>robust Control Signals</b> based on Perception.
 #   img_src: "images/mission.PNG"
 #   img_explain: "Pilot Service"
@@ -29,7 +29,7 @@
   role: Ni-Car-Nae-Car
   role2: Idea Festival at Hyundai Motor Group
   duration: 2021
-  video_demo: "https://www.youtube.com/watch?app=desktop&v=ti5-qb5g158&feature=youtu.be"
+  video_demo: <iframe width="560" height="315" src="https://www.youtube.com/embed/ti5-qb5g158" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   description: Our group aims at developing an advanced sharing car system that could be personalized to everyone, by developing learning-based personalized seat controller and center-Fascia.
   prize: <b style='color:Maroon !important;'>Excellence Prize</b>
   prize_url: "https://drive.google.com/file/d/1Bx3Tfcc8air5d_WvtFxT62Ap3cbZRuMH/view?usp=sharing"
@@ -47,14 +47,14 @@
 - project: Advanced FCA - Deep Learning based ADAS System
   role: Smart Mobility Project, Hyundai Motor Group
   duration: 2020
-  video_demo: "https://drive.google.com/file/d/1kn3ybtOmX5JBy9htXnSLqbSjUvh7tC5O/view?usp=sharing"
-  presentation_demo: "https://www.youtube.com/watch?v=NjJ2G3LRRK8&t=645s"
+  video_demo: <video  src="https://drive.google.com/file/d/1kn3ybtOmX5JBy9htXnSLqbSjUvh7tC5O/view?usp=sharing"  controls>Something got wrong..</video>
+  presentation_demo: <iframe width="560" height="315" src="https://www.youtube.com/embed/NjJ2G3LRRK8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   description: Our group aims at make an ADAS System that proactively informs an accident through <b>Vehicle Behavior Prediction</b> through Deep Learning.
 
 - project: Drivable Surface Recognition System
   role: Research Intern, Hyundai Motor Group
   duration: 2020
-  video_demo: "https://drive.google.com/file/d/1JgirXhQLLBStehTv7Cd2qZtAxUVpWK3E/view?usp=sharing"
+  video_demo: <video  src="https://drive.google.com/file/d/1JgirXhQLLBStehTv7Cd2qZtAxUVpWK3E/view?usp=sharing"  controls>Something got wrong..</video>
   description: My Research aims to make <b>Dead-Reckoning and Planning Algorithm based on Perception</b> for Autonomous Vehicle by Recognizing the drivable surface.
 
 - project: Development of real-time object recognition in image
