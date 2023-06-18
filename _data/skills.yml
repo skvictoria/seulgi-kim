@@ -1,6 +1,6 @@
 # Skills
-- skill: A Height Estimation Method for Improving Recognition Performance in Autonomous Driving
-  description: Rahoon Kang, <u><b>Seulgi Kim</b></u>, Minseong Son, Hayong Woo, Dongyeop Jeon, Korean Patent, Patent Pending at 25th December, 2022, 2nd Inventor
+- skill: Apparatus for Determining of Object Position outside Vehicle and Method Thereof
+  description: Rahoon Kang, <u><b>Seulgi Kim</b></u>, Minseong Son, Hayong Woo, Dongyeop Jeon, Korean Patent, no.1020230062646, 2023, 2nd Inventor
   
 - skill: An Obstacle Distance Estimation Method in Vertical Curvature
   description: <u><b>Seulgi Kim</b></u>, Rahoon Kang, Minseong Son, Hayong Woo, Dongyeop Jeon, Korean Patent, Patent Pending at 16th December, 2022, 1st Inventor
@@ -8,21 +8,23 @@
 - skill: A Vehicle Distance Estimation Method by Estimating Height of Vehicle Body in Image
   description: <u><b>Seulgi Kim</b></u>, Rahoon Kang, Minseong Son, Hayong Woo, Dongyeop Jeon, Korean Patent, Patent Pending at 16th December, 2022, 1st Inventor
   
-- skill: A Vehicle Heading Angle Estimation Method in Image
-  description: <u><b>Seulgi Kim</b></u>, Rahoon Kang, Minseong Son, Hayong Woo, Dongyeop Jeon, Korean Patent, Patent Pending at 16th December, 2022, 1st Inventor
+- skill: Apparatus for Determining of Object Position outside Vehicle and Method Thereof
+  description: <u><b>Seulgi Kim</b></u>, Rahoon Kang, Minseong Son, Hayong Woo, Dongyeop Jeon, Korean Patent, no.1020230071042, 2023, 1st Inventor
   
 - skill: Apparatus for detecting Label Errors in Training Datasets and Method Thereof
   description: <u><b>Seulgi Kim</b></u>, Korean Patent, no.1020230025347, 2023
   
 - skill: Apparatus for training a Path Prediction model and a Method therefor
   description: <u><b>Seulgi Kim</b></u>, Yimju Kang, <b>US Patent</b>, no. 18/136,687, 2023, Co-Inventor
+  
+- skill: Apparatus for Predicting a Driving Path of a Vehicle and a Method Thereof
+  description: <u><b>Seulgi Kim</b></u>, Yimju Kang, <b>US Patent</b>, no. 18/142,677, 2023, Co-Inventor
 
 - skill: Apparatus for training Path Prediction model and Method thereof
   description: <u><b>Seulgi Kim</b></u>, Yimju Kang, Korean Patent, no.1020220145335, 2022, Co-Inventor
 
 - skill: Apparatus for Predicting Driving Path of Vehicle and Method Thereof
   description: <u><b>Seulgi Kim</b></u>, Yimju Kang, Korean Patent, no.1020220145334, 2022, Co-Inventor
-  descriptionUS: <u><b>Seulgi Kim</b></u>, Yimju Kang, <b>US Patent</b>, Patent Pending in progress, 2022, Co-Inventor
   
 - skill: Method for controlling seat position based learning
   description: <u><b>Seulgi Kim</b></u>, Kyungjoo Nam, Yukung Song, Hyojeong Lee, Korean Patent, no.1020210160162, 2021, Co-Inventor
